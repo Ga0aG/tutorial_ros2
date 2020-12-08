@@ -25,6 +25,10 @@ add_executable(add_two_int_server src/add_two_int_server.cpp)
 ament_target_dependencies(add_two_int_server rclcpp std_msgs example_interfaces)
 install(TARGETS add_two_int_server
   DESTINATION lib/${PROJECT_NAME})
+add_executable(add_two_int_server_multi_thread src/add_two_int_server_multi_thread.cpp)
+ament_target_dependencies(add_two_int_server_multi_thread rclcpp std_msgs example_interfaces)
+install(TARGETS add_two_int_server_multi_thread
+  DESTINATION lib/${PROJECT_NAME})
 add_executable(add_two_int_client src/add_two_int_client.cpp)
 ament_target_dependencies(add_two_int_client rclcpp std_msgs example_interfaces)
 install(TARGETS add_two_int_client

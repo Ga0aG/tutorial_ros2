@@ -20,12 +20,17 @@ int main(int argc, char **argv)
   rclcpp::init(argc, argv);
 
   std::shared_ptr<rclcpp::Node> node = rclcpp::Node::make_shared("add_two_ints_server");
-
+  
+  auto cbg = node->create_callback_group(rclcpp::CallbackGroupType::Reentrant);
   rclcpp::Service<example_interfaces::srv::AddTwoInts>::SharedPtr service =
-    node->create_service<example_interfaces::srv::AddTwoInts>("add_two_ints", &add);
+    node->create_service<example_interfaces::srv::AddTwoInts>("add_two_ints", &add, rmw_qos_profile_services_default, cbg);
 
   RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Ready to add two ints.");
 
-  rclcpp::spin(node);
+//   rclcpp::spin(node);
+  bool yield_before_execute = true;
+  rclcpp::executors::MultiThreadedExecutor executor(rclcpp::ExecutorOptions(), 2u, yield_before_execute);
+  executor.add_node(node);
+  executor.spin();
   rclcpp::shutdown();
 }

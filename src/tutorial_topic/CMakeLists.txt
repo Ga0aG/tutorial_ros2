@@ -27,12 +27,12 @@ find_package(tutorial_interfaces REQUIRED)
 
 add_executable(publisher src/publisher.cpp)
 add_executable(subscriber src/subscriber.cpp)
-add_executable(subscriber_multi src/subscriber_multi.cpp)
+# add_executable(subscriber_multi src/subscriber_multi.cpp)
 add_executable(pub_custom_msg src/pub_custom_msg.cpp)
 add_executable(publisher_statistics src/publisher_statistics.cpp)
 ament_target_dependencies(publisher rclcpp std_msgs)
 ament_target_dependencies(subscriber rclcpp std_msgs)
-ament_target_dependencies(subscriber_multi rclcpp std_msgs)
+# ament_target_dependencies(subscriber_multi rclcpp std_msgs)
 ament_target_dependencies(publisher_statistics rclcpp std_msgs)
 ament_target_dependencies(pub_custom_msg tutorial_interfaces rclcpp std_msgs)
 
@@ -45,9 +45,9 @@ target_include_directories(publisher PUBLIC
 target_include_directories(subscriber PUBLIC
   $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
   $<INSTALL_INTERFACE:include>)
-target_include_directories(subscriber_multi PUBLIC
-  $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
-  $<INSTALL_INTERFACE:include>)
+# target_include_directories(subscriber_multi PUBLIC
+#   $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
+#   $<INSTALL_INTERFACE:include>)
 target_include_directories(pub_custom_msg PUBLIC
   $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
   $<INSTALL_INTERFACE:include>)
