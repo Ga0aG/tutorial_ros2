@@ -1,0 +1,54 @@
+-- The C compiler identification is GNU 8.3.0
+-- The CXX compiler identification is GNU 8.3.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.8 (/home/bot/ros2_foxy/install/ament_cmake/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.7.3", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found ament_lint_auto: 0.9.5 (/home/bot/ros2_foxy/install/ament_lint_auto/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/bot/tutorial/tutorial_ws/src/tutorial_hello_world/include>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/bot/tutorial/tutorial_ws/src/build/tutorial_hello_world
+[35m[1mScanning dependencies of target hello_world[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/hello_world.dir/src/hello_world.cpp.o[0m
+[100%] [32m[1mLinking CXX executable hello_world[0m
+[100%] Built target hello_world
+[100%] Built target hello_world
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Installing: /home/bot/tutorial/tutorial_ws/src/install/tutorial_hello_world/lib/tutorial_hello_world/hello_world
+-- Installing: /home/bot/tutorial/tutorial_ws/src/install/tutorial_hello_world/share/ament_index/resource_index/package_run_dependencies/tutorial_hello_world
+-- Installing: /home/bot/tutorial/tutorial_ws/src/install/tutorial_hello_world/share/ament_index/resource_index/parent_prefix_path/tutorial_hello_world
+-- Installing: /home/bot/tutorial/tutorial_ws/src/install/tutorial_hello_world/share/tutorial_hello_world/environment/ament_prefix_path.sh
+-- Installing: /home/bot/tutorial/tutorial_ws/src/install/tutorial_hello_world/share/tutorial_hello_world/environment/ament_prefix_path.dsv
+-- Installing: /home/bot/tutorial/tutorial_ws/src/install/tutorial_hello_world/share/tutorial_hello_world/environment/path.sh
+-- Installing: /home/bot/tutorial/tutorial_ws/src/install/tutorial_hello_world/share/tutorial_hello_world/environment/path.dsv
+-- Installing: /home/bot/tutorial/tutorial_ws/src/install/tutorial_hello_world/share/tutorial_hello_world/local_setup.bash
+-- Installing: /home/bot/tutorial/tutorial_ws/src/install/tutorial_hello_world/share/tutorial_hello_world/local_setup.sh
+-- Installing: /home/bot/tutorial/tutorial_ws/src/install/tutorial_hello_world/share/tutorial_hello_world/local_setup.zsh
+-- Installing: /home/bot/tutorial/tutorial_ws/src/install/tutorial_hello_world/share/tutorial_hello_world/local_setup.dsv
+-- Installing: /home/bot/tutorial/tutorial_ws/src/install/tutorial_hello_world/share/tutorial_hello_world/package.dsv
+-- Installing: /home/bot/tutorial/tutorial_ws/src/install/tutorial_hello_world/share/ament_index/resource_index/packages/tutorial_hello_world
+-- Installing: /home/bot/tutorial/tutorial_ws/src/install/tutorial_hello_world/share/tutorial_hello_world/cmake/tutorial_hello_worldConfig.cmake
+-- Installing: /home/bot/tutorial/tutorial_ws/src/install/tutorial_hello_world/share/tutorial_hello_world/cmake/tutorial_hello_worldConfig-version.cmake
+-- Installing: /home/bot/tutorial/tutorial_ws/src/install/tutorial_hello_world/share/tutorial_hello_world/package.xml
