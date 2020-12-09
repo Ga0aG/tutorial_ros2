@@ -58,8 +58,8 @@ install(TARGETS publisher_statistics
   DESTINATION lib/${PROJECT_NAME})
 install(TARGETS subscriber
   DESTINATION lib/${PROJECT_NAME})
-install(TARGETS subscriber_multi
-  DESTINATION lib/${PROJECT_NAME})
+# install(TARGETS subscriber_multi
+#   DESTINATION lib/${PROJECT_NAME})
 install(TARGETS pub_custom_msg
   DESTINATION lib/${PROJECT_NAME})
 

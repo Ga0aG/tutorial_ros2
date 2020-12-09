@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+build/tutorial_py/tutorial_py.egg-info/PKG-INFO
+build/tutorial_py/tutorial_py.egg-info/SOURCES.txt
+build/tutorial_py/tutorial_py.egg-info/dependency_links.txt
+build/tutorial_py/tutorial_py.egg-info/entry_points.txt
+build/tutorial_py/tutorial_py.egg-info/requires.txt
+build/tutorial_py/tutorial_py.egg-info/top_level.txt
+build/tutorial_py/tutorial_py.egg-info/zip-safe
+resource/tutorial_py
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
+tutorial_py/__init__.py
+tutorial_py/client_member_function.py
+tutorial_py/service_member_function.py

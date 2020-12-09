@@ -1,0 +1,22 @@
+[0.178s] Invoking command in '/home/root/dev/tutorial_ros2/src/tutorial_py': PYTHONPATH=/home/root/dev/tutorial_ros2/src/tutorial_py/install/tutorial_py/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/tutorial_py build --build-base /home/root/dev/tutorial_ros2/src/tutorial_py/build/tutorial_py/build install --prefix /home/root/dev/tutorial_ros2/src/tutorial_py/install/tutorial_py --record /home/root/dev/tutorial_ros2/src/tutorial_py/build/tutorial_py/install.log --single-version-externally-managed
+[0.331s] running egg_info
+[0.331s] writing build/tutorial_py/tutorial_py.egg-info/PKG-INFO
+[0.331s] writing dependency_links to build/tutorial_py/tutorial_py.egg-info/dependency_links.txt
+[0.332s] writing entry points to build/tutorial_py/tutorial_py.egg-info/entry_points.txt
+[0.332s] writing requirements to build/tutorial_py/tutorial_py.egg-info/requires.txt
+[0.332s] writing top-level names to build/tutorial_py/tutorial_py.egg-info/top_level.txt
+[0.367s] reading manifest file 'build/tutorial_py/tutorial_py.egg-info/SOURCES.txt'
+[0.368s] writing manifest file 'build/tutorial_py/tutorial_py.egg-info/SOURCES.txt'
+[0.369s] running build
+[0.369s] running build_py
+[0.369s] running install
+[0.370s] running install_lib
+[0.372s] running install_data
+[0.372s] running install_egg_info
+[0.374s] removing '/home/root/dev/tutorial_ros2/src/tutorial_py/install/tutorial_py/lib/python3.8/site-packages/tutorial_py-0.0.0-py3.8.egg-info' (and everything under it)
+[0.374s] Copying build/tutorial_py/tutorial_py.egg-info to /home/root/dev/tutorial_ros2/src/tutorial_py/install/tutorial_py/lib/python3.8/site-packages/tutorial_py-0.0.0-py3.8.egg-info
+[0.375s] running install_scripts
+[0.390s] Installing client script to /home/root/dev/tutorial_ros2/src/tutorial_py/install/tutorial_py/lib/tutorial_py
+[0.390s] Installing service script to /home/root/dev/tutorial_ros2/src/tutorial_py/install/tutorial_py/lib/tutorial_py
+[0.390s] writing list of installed files to '/home/root/dev/tutorial_ros2/src/tutorial_py/build/tutorial_py/install.log'
+[0.409s] Invoked command in '/home/root/dev/tutorial_ros2/src/tutorial_py' returned '0': PYTHONPATH=/home/root/dev/tutorial_ros2/src/tutorial_py/install/tutorial_py/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/tutorial_py build --build-base /home/root/dev/tutorial_ros2/src/tutorial_py/build/tutorial_py/build install --prefix /home/root/dev/tutorial_ros2/src/tutorial_py/install/tutorial_py --record /home/root/dev/tutorial_ros2/src/tutorial_py/build/tutorial_py/install.log --single-version-externally-managed

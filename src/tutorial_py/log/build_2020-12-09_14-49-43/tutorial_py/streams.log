@@ -1,0 +1,41 @@
+[0.182s] Invoking command in '/home/root/dev/tutorial_ros2/src/tutorial_py': PYTHONPATH=/home/root/dev/tutorial_ros2/src/tutorial_py/install/tutorial_py/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/tutorial_py build --build-base /home/root/dev/tutorial_ros2/src/tutorial_py/build/tutorial_py/build install --prefix /home/root/dev/tutorial_ros2/src/tutorial_py/install/tutorial_py --record /home/root/dev/tutorial_ros2/src/tutorial_py/build/tutorial_py/install.log --single-version-externally-managed
+[0.342s] running egg_info
+[0.343s] creating build/tutorial_py/tutorial_py.egg-info
+[0.343s] writing build/tutorial_py/tutorial_py.egg-info/PKG-INFO
+[0.344s] writing dependency_links to build/tutorial_py/tutorial_py.egg-info/dependency_links.txt
+[0.344s] writing entry points to build/tutorial_py/tutorial_py.egg-info/entry_points.txt
+[0.344s] writing requirements to build/tutorial_py/tutorial_py.egg-info/requires.txt
+[0.344s] writing top-level names to build/tutorial_py/tutorial_py.egg-info/top_level.txt
+[0.346s] writing manifest file 'build/tutorial_py/tutorial_py.egg-info/SOURCES.txt'
+[0.385s] reading manifest file 'build/tutorial_py/tutorial_py.egg-info/SOURCES.txt'
+[0.386s] writing manifest file 'build/tutorial_py/tutorial_py.egg-info/SOURCES.txt'
+[0.386s] running build
+[0.386s] running build_py
+[0.386s] creating /home/root/dev/tutorial_ros2/src/tutorial_py/build/tutorial_py/build
+[0.386s] creating /home/root/dev/tutorial_ros2/src/tutorial_py/build/tutorial_py/build/lib
+[0.386s] creating /home/root/dev/tutorial_ros2/src/tutorial_py/build/tutorial_py/build/lib/tutorial_py
+[0.386s] copying tutorial_py/__init__.py -> /home/root/dev/tutorial_ros2/src/tutorial_py/build/tutorial_py/build/lib/tutorial_py
+[0.387s] copying tutorial_py/service_member_function.py -> /home/root/dev/tutorial_ros2/src/tutorial_py/build/tutorial_py/build/lib/tutorial_py
+[0.387s] copying tutorial_py/client_member_function.py -> /home/root/dev/tutorial_ros2/src/tutorial_py/build/tutorial_py/build/lib/tutorial_py
+[0.387s] running install
+[0.387s] running install_lib
+[0.389s] creating /home/root/dev/tutorial_ros2/src/tutorial_py/install/tutorial_py/lib/python3.8/site-packages/tutorial_py
+[0.389s] copying /home/root/dev/tutorial_ros2/src/tutorial_py/build/tutorial_py/build/lib/tutorial_py/__init__.py -> /home/root/dev/tutorial_ros2/src/tutorial_py/install/tutorial_py/lib/python3.8/site-packages/tutorial_py
+[0.389s] copying /home/root/dev/tutorial_ros2/src/tutorial_py/build/tutorial_py/build/lib/tutorial_py/service_member_function.py -> /home/root/dev/tutorial_ros2/src/tutorial_py/install/tutorial_py/lib/python3.8/site-packages/tutorial_py
+[0.389s] copying /home/root/dev/tutorial_ros2/src/tutorial_py/build/tutorial_py/build/lib/tutorial_py/client_member_function.py -> /home/root/dev/tutorial_ros2/src/tutorial_py/install/tutorial_py/lib/python3.8/site-packages/tutorial_py
+[0.389s] byte-compiling /home/root/dev/tutorial_ros2/src/tutorial_py/install/tutorial_py/lib/python3.8/site-packages/tutorial_py/__init__.py to __init__.cpython-38.pyc
+[0.390s] byte-compiling /home/root/dev/tutorial_ros2/src/tutorial_py/install/tutorial_py/lib/python3.8/site-packages/tutorial_py/service_member_function.py to service_member_function.cpython-38.pyc
+[0.391s] byte-compiling /home/root/dev/tutorial_ros2/src/tutorial_py/install/tutorial_py/lib/python3.8/site-packages/tutorial_py/client_member_function.py to client_member_function.cpython-38.pyc
+[0.391s] running install_data
+[0.392s] creating /home/root/dev/tutorial_ros2/src/tutorial_py/install/tutorial_py/share/ament_index
+[0.392s] creating /home/root/dev/tutorial_ros2/src/tutorial_py/install/tutorial_py/share/ament_index/resource_index
+[0.392s] creating /home/root/dev/tutorial_ros2/src/tutorial_py/install/tutorial_py/share/ament_index/resource_index/packages
+[0.392s] copying resource/tutorial_py -> /home/root/dev/tutorial_ros2/src/tutorial_py/install/tutorial_py/share/ament_index/resource_index/packages
+[0.393s] copying package.xml -> /home/root/dev/tutorial_ros2/src/tutorial_py/install/tutorial_py/share/tutorial_py
+[0.393s] running install_egg_info
+[0.394s] Copying build/tutorial_py/tutorial_py.egg-info to /home/root/dev/tutorial_ros2/src/tutorial_py/install/tutorial_py/lib/python3.8/site-packages/tutorial_py-0.0.0-py3.8.egg-info
+[0.395s] running install_scripts
+[0.414s] Installing client script to /home/root/dev/tutorial_ros2/src/tutorial_py/install/tutorial_py/lib/tutorial_py
+[0.414s] Installing service script to /home/root/dev/tutorial_ros2/src/tutorial_py/install/tutorial_py/lib/tutorial_py
+[0.414s] writing list of installed files to '/home/root/dev/tutorial_ros2/src/tutorial_py/build/tutorial_py/install.log'
+[0.432s] Invoked command in '/home/root/dev/tutorial_ros2/src/tutorial_py' returned '0': PYTHONPATH=/home/root/dev/tutorial_ros2/src/tutorial_py/install/tutorial_py/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/tutorial_py build --build-base /home/root/dev/tutorial_ros2/src/tutorial_py/build/tutorial_py/build install --prefix /home/root/dev/tutorial_ros2/src/tutorial_py/install/tutorial_py --record /home/root/dev/tutorial_ros2/src/tutorial_py/build/tutorial_py/install.log --single-version-externally-managed

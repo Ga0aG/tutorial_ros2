@@ -1,0 +1,4 @@
+[console_scripts]
+client = tutorial_py.client_member_function:main
+service = tutorial_py.service_member_function:main
+
