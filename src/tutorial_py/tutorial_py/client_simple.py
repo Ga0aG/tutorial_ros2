@@ -10,6 +10,7 @@ class MinimalClientAsync(Node):
     def __init__(self):
         super().__init__('minimal_client_async')
         self.cli = self.create_client(AddTwoInts, 'add_two_ints')
+        # checks if a service matching the type and name of the client is available once a second.
         while not self.cli.wait_for_service(timeout_sec=1.0):
             self.get_logger().info('service not available, waiting again...')
         self.req = AddTwoInts.Request()
@@ -25,7 +26,7 @@ def main(args=None):
 
     minimal_client = MinimalClientAsync()
     minimal_client.send_request()
-
+    #  The loop checks the future to see if there is a response from the service, as long as the system is running. 
     while rclpy.ok():
         rclpy.spin_once(minimal_client)
         if minimal_client.future.done():
